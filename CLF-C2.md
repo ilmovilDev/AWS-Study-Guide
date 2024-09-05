@@ -20,154 +20,74 @@ La lista de temas del examen AWS Certified Cloud Practitioner se puede encontrar
 
 ## DOMINIO #1 CLF-C02: CONCEPTOS DE LA NUBE
 
-### Declaración de Tarea 1.1: Definir los beneficios de la nube de AWS.
+## Declaración de Tarea 1.1: Definir los beneficios de la nube de AWS
 
-Conocimiento sobre:
+### Beneficios de la Nube de AWS
+- **Escalabilidad**: AWS permite escalar recursos automáticamente según la demanda. Esto significa que las empresas pueden ajustar su capacidad en función de las necesidades sin tener que invertir en infraestructura física adicional.
+- **Costos bajo demanda**: Pago solo por los recursos que realmente se utilizan. AWS ofrece un modelo de precios basado en el uso, lo que ayuda a reducir los costos operativos y de capital.
+- **Globalización**: AWS tiene centros de datos en varias regiones y zonas de disponibilidad alrededor del mundo, permitiendo la distribución global de servicios y aplicaciones.
+- **Innovación rápida**: La nube facilita la experimentación y el desarrollo rápido de nuevas soluciones, ya que los recursos están disponibles de inmediato y sin necesidad de inversiones iniciales significativas.
+- **Seguridad**: AWS ofrece una infraestructura con múltiples capas de seguridad, incluyendo controles de acceso, cifrado y monitoreo continuo para proteger datos y aplicaciones.
 
-- Propuesta de valor de la nube de AWS.
+## Declaración de Tarea 1.2: Identificar los principios de diseño de la nube AWS
 
-Habilidades en:
+### Principios de Diseño de la Nube de AWS
+- **Marco de Buenas Prácticas de AWS (AWS Well-Architected Framework)**:
+  - **Excelencia operativa**: Se enfoca en la gestión y operación eficientes de los sistemas para proporcionar valor continuamente.
+  - **Seguridad**: Protege la información, sistemas y activos mediante controles adecuados y la implementación de prácticas de seguridad.
+  - **Confiabilidad**: Asegura que las aplicaciones sean resilientes y puedan recuperarse rápidamente de fallos.
+  - **Eficiencia de rendimiento**: Utiliza recursos de manera eficiente y adapta la capacidad a las necesidades del negocio.
+  - **Optimización de costos**: Maneja los gastos asociados a la infraestructura y busca oportunidades para reducir costos sin comprometer el rendimiento.
+  - **Sostenibilidad**: Considera el impacto ambiental y optimiza el uso de recursos para reducir la huella de carbono.
 
-- Comprender las economías de escala (por ejemplo, ahorro de costos).
-- Comprender los beneficios de la infraestructura global (por ejemplo, velocidad de despliegue, alcance global).
-- Comprender las ventajas de la alta disponibilidad, elasticidad y agilidad.
+### Identificación de los Pilares
+- **Excelencia operativa vs. Seguridad**: Excelencia operativa se centra en la eficiencia y el monitoreo, mientras que Seguridad se enfoca en proteger los recursos y datos.
+- **Confiabilidad vs. Eficiencia de rendimiento**: Confiabilidad se asegura de que las aplicaciones sean resilientes, mientras que Eficiencia de rendimiento busca un uso óptimo de los recursos.
 
-### Declaración de Tarea 1.2: Identificar los principios de diseño de la nube AWS.
+## Declaración de Tarea 1.3: Comprender los beneficios y las estrategias de migración a la nube de AWS
 
-Conocimiento sobre:
+### Beneficios de la Migración a la Nube
+- **Reducción de costos**: Migrar a la nube elimina la necesidad de mantener hardware y reduce los costos operativos.
+- **Agilidad y flexibilidad**: Permite a las organizaciones responder rápidamente a cambios en el mercado y ajustar recursos según sea necesario.
+- **Acceso a tecnología avanzada**: La nube proporciona acceso a las últimas tecnologías y servicios sin necesidad de inversiones en infraestructura propia.
 
-- Marco de Buenas Prácticas de AWS (AWS Well-Architected Framework).
+### Estrategias de Migración
+- **Enfoque Lift-and-Shift**: Mover aplicaciones a la nube sin realizar cambios significativos en su diseño o arquitectura.
+- **Replataformización**: Modificar algunas características de las aplicaciones para aprovechar las capacidades de la nube mientras se mantiene la base del código.
+- **Refactorización**: Rediseñar y reescribir aplicaciones para aprovechar al máximo las capacidades de la nube.
+- **Uso de AWS Snowball**: Utilizar dispositivos físicos para transferir grandes volúmenes de datos a AWS, especialmente útil para migraciones a gran escala.
 
-Habilidades en:
+## Declaración de Tarea 1.4: Comprender los conceptos de la economía en la nube
 
-- Comprender los pilares del marco de buenas prácticas (por ejemplo, excelencia operativa, seguridad, confiabilidad, eficiencia de rendimiento, optimización de costos y sostenibilidad).
-- Identificar las diferencias entre los pilares del marco de buenas prácticas.
-
-### Declaración de Tarea 1.3: Comprender los beneficios y las estrategias de migración a la nube de AWS.
-
-Conocimiento sobre:
-
-- Estrategias de adopción de la nube.
-- Recursos para apoyar el proceso de migración a la nube.
-
-Habilidades en:
-
-- Comprender los beneficios del marco de adopción de la nube de AWS (AWS CAF) (por ejemplo, reducción del riesgo empresarial, mejora en el rendimiento de ESG, aumento de ingresos, mayor eficiencia operativa).
-- Identificar estrategias de migración adecuadas (por ejemplo, replicación de bases de datos, uso de AWS Snowball).
-
-### Declaración de Tarea 1.4: Comprender los conceptos de la economía en la nube.
-
-Conocimiento sobre:
-
-- Aspectos de la economía en la nube.
-- Ahorro de costos al migrar a la nube.
-
-Habilidades en:
-
-- Comprender la diferencia entre costos fijos y costos variables.
-- Comprender los costos asociados a los entornos on-premises.
-- Comprender las diferencias entre las estrategias de licencias (por ejemplo, modelo BYOL vs licencias incluidas).
-- Comprender el concepto de dimensionamiento correcto.
-- Identificar los beneficios de la automatización (por ejemplo, aprovisionamiento y gestión de la configuración con AWS CloudFormation).
-- Identificar servicios gestionados de AWS (por ejemplo, Amazon RDS, Amazon Elastic Container Service [ECS], Amazon Elastic Kubernetes Service [EKS], Amazon DynamoDB).
+### Conceptos de la Economía en la Nube
+- **Costos fijos vs. costos variables**:
+  - **Costos fijos**: Gastos que no cambian con el uso, como el hardware y los costos de mantenimiento.
+  - **Costos variables**: Gastos que fluctúan con el uso de recursos, como el almacenamiento y la computación en la nube.
+- **Ahorro de costos al migrar a la nube**: La nube elimina la necesidad de grandes inversiones iniciales y permite a las empresas pagar solo por lo que utilizan, lo que puede resultar en un ahorro significativo.
+- **Estrategias de licencias**:
+  - **Modelo BYOL (Bring Your Own License)**: Permite a los clientes llevar sus licencias existentes a la nube.
+  - **Licencias incluidas**: Los costos de licencia están incluidos en el precio de los servicios en la nube, simplificando la gestión de licencias.
+- **Dimensionamiento correcto**: Ajustar los recursos en la nube para satisfacer las necesidades específicas de la aplicación sin sobreaprovisionar.
+- **Beneficios de la automatización**:
+  - **Aprovisionamiento y gestión de la configuración con AWS CloudFormation**: Facilita la creación y gestión de recursos mediante plantillas de infraestructura como código.
+- **Servicios gestionados de AWS**:
+  - **Amazon RDS**: Servicio gestionado para bases de datos relacionales.
+  - **Amazon ECS**: Servicio para ejecutar y escalar contenedores Docker.
+  - **Amazon EKS**: Servicio gestionado para Kubernetes.
+  - **Amazon DynamoDB**: Base de datos NoSQL gestionada.
 
 ## DOMINIO #2 CLF-C02: SEGURIDAD Y CUMPLIMIENTO
 
 ### Declaración de Tarea 2.1: Comprender el modelo de responsabilidad compartida de AWS.
 
-Conocimiento sobre:
-
-- Modelo de responsabilidad compartida de AWS.
-
-Habilidades en:
-
-- Reconocer los componentes del modelo de responsabilidad compartida de AWS.
-- Describir las responsabilidades del cliente en AWS.
-- Describir las responsabilidades de AWS.
-- Describir las responsabilidades compartidas entre el cliente y AWS.
-- Describir cómo varían las responsabilidades de AWS y del cliente según el servicio utilizado (por ejemplo, Amazon RDS, AWS Lambda, Amazon EC2).
-
 ### Declaración de Tarea 2.2: Comprender los conceptos de seguridad, gobernanza y cumplimiento en la nube AWS.
-
-Conocimiento sobre:
-
-- Conceptos de gobernanza y cumplimiento de AWS.
-- Beneficios de la seguridad en la nube (por ejemplo, cifrado).
-- Dónde capturar y ubicar registros asociados a la seguridad en la nube.
-
-Habilidades en:
-
-- Identificar dónde encontrar información sobre el cumplimiento de AWS (por ejemplo, AWS Artifact).
-- Comprender las necesidades de cumplimiento entre diferentes ubicaciones geográficas o industrias (por ejemplo, AWS Compliance).
-- Describir cómo los clientes pueden proteger los recursos en AWS (por ejemplo, Amazon Inspector, AWS Security Hub, Amazon GuardDuty, AWS Shield).
-- Identificar diferentes opciones de cifrado (por ejemplo, cifrado en tránsito, cifrado en reposo).
-- Reconocer servicios que ayudan en la gobernanza y el cumplimiento (por ejemplo, monitoreo con Amazon CloudWatch, auditoría con AWS CloudTrail, AWS Audit Manager y AWS Config, informes de acceso).
-- Reconocer que los requisitos de cumplimiento varían entre los servicios de AWS.
 
 ### Declaración de Tarea 2.3: Identificar las capacidades de gestión de acceso de AWS.
 
-Conocimiento sobre:
-
-- Gestión de identidades y acceso (por ejemplo, AWS Identity and Access Management [IAM]).
-- Importancia de proteger la cuenta de usuario raíz de AWS.
-- Principio de privilegio mínimo.
-- AWS IAM Identity Center (AWS Single Sign-On).
-
-Habilidades en:
-
-- Comprender las claves de acceso, políticas de contraseñas y almacenamiento de credenciales (por ejemplo, AWS Secrets Manager, AWS Systems Manager).
-- Identificar métodos de autenticación en AWS (por ejemplo, autenticación multifactor [MFA], IAM Identity Center, roles de IAM entre cuentas).
-- Definir grupos, usuarios, políticas personalizadas y políticas gestionadas según el principio de privilegio mínimo.
-- Identificar tareas que solo el usuario raíz puede realizar.
-- Comprender los métodos para proteger el usuario raíz.
-- Comprender los tipos de gestión de identidad (por ejemplo, federada).
-
 ### Declaración de Tarea 2.4: Identificar componentes y recursos de seguridad.
-
-Conocimiento sobre:
-
-- Capacidades de seguridad que AWS ofrece.
-- Documentación relacionada con la seguridad que AWS ofrece.
-
-Habilidades en:
-
-- Describir las características y servicios de seguridad de AWS (por ejemplo, grupos de seguridad, ACLs de red, AWS WAF).
-- Comprender que existen productos de seguridad de terceros disponibles en AWS Marketplace.
-- Identificar dónde encontrar información de seguridad de AWS (por ejemplo, AWS Knowledge Center, AWS Security Center, blog de seguridad de AWS).
-- Comprender el uso de los servicios de AWS para identificar problemas de seguridad (por ejemplo, AWS Trusted Advisor).
 
 ## DOMINIO #3 CLF-C02: TECNOLOGÍA Y SERVICIOS EN LA NUBE
 
 ### Declaración de Tarea 3.1: Definir métodos de despliegue y operación en la nube AWS.
 
-Conocimiento sobre:
-
-- Diferentes formas de aprovisionar y operar en la nube de AWS.
-- Diferentes formas de acceder a los servicios de AWS.
-- Tipos de modelos de despliegue en la nube.
-- Opciones de conectividad.
-
-Habilidades en:
-
-- Decidir entre opciones como el acceso programático (por ejemplo, APIs, SDKs, CLI), la consola de gestión de AWS y la infraestructura como código (IaC).
-- Evaluar los requisitos para determinar si se deben utilizar operaciones únicas o procesos repetibles.
-- Identificar diferentes modelos de despliegue (por ejemplo, nube, híbrido, on-premises).
-- Identificar opciones de conectividad (por ejemplo, AWS VPN, AWS Direct Connect, internet público).
-
 ### Declaración de Tarea 3.2: Definir la infraestructura global de AWS.
-
-Conocimiento sobre:
-
-- Regiones AWS, Zonas de Disponibilidad y ubicaciones de borde.
-- Alta disponibilidad.
-- Uso de múltiples regiones.
-- Beneficios de las ubicaciones de borde.
-- Zonas de AWS Wavelength y Zonas Locales de AWS.
-
-Habilidades en:
-
-- Describir las relaciones entre regiones, zonas de disponibilidad y ubicaciones de borde.
-- Describir cómo lograr alta disponibilidad utilizando múltiples zonas de disponibilidad.
-- Reconocer que las zonas de disponibilidad no comparten puntos únicos de falla.
-- Describir cuándo usar múltiples regiones (por ejemplo, recuperación ante desastres, continuidad del negocio, baja latencia para usuarios finales, soberanía de datos).
-- Describir de forma general los beneficios de las ubicaciones de borde (por
